@@ -1,3 +1,5 @@
+
+
 export const config: WebdriverIO.Config = {
     //
     // ====================
@@ -23,7 +25,7 @@ export const config: WebdriverIO.Config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/*.ts'
+        './test/specs/add-custom-command-example.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [

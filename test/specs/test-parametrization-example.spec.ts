@@ -16,6 +16,7 @@ describe('My Login application', () => {
             this.retries(2);
             await LoginPage.open()
             await LoginPage.login(value.username, value.password);
+            console.log("Title of the Page is" + await browser.getTitle());
         })
     })
 })
